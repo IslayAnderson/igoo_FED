@@ -34,13 +34,17 @@
         }
     }
     .control{
-        position:absolute;
-        top:45%;
+        position:reletive;
+        top:25%;
+        .left, .right{
+            position:absolute;
+            font-size:10vh;
+        }
         .left{
-            left:0;
+            left:10px;
         }
         .right{
-            right:0;
+            right:10px;
         }
     }
 }
