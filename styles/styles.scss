@@ -92,6 +92,7 @@ figure { margin: 0; }
 }
 $purple:#220A53;
 $green:#366A30;
+$grey:#9B9B9B;
 .product_main{
     max-width: 1600px;
     margin:0 auto;
@@ -140,13 +141,20 @@ $green:#366A30;
                 display:block;
                 width:18px;
                 height:18px;
-                padding-bottom:4px;
+                padding-bottom:2px;
                 padding-left:1px;
                 border: solid 1px #000;
                 margin:0px;
                 vertical-align: middle;
             }
         }
+    }
+    #submit{
+        width:80%;
+        margin:0;
+        text-align: center;
+        background: $grey;
+        color:#fff;
     }
     
 } 
