@@ -21,14 +21,14 @@
             <span class="right"></span>
         </div>
         <div class="full">
-            <img src="">
+            <img src="/Images/chair_grey.jpg">
         </div>
         <div class="slider">
-            <div class="thumbnail">
-                <img src="">
+            <div class="thumbnail select">
+                <img src="/Images/chair_grey.jpg">
             </div>
             <div class="thumbnail">
-                <img src="">
+                <img src="/Images/chair_pink.jpg">
             </div>
         </div>
     </div>
@@ -47,28 +47,32 @@
         <div class="product_options">
             <form>
                 <label class="form-label d-block"> Fabric:
-                    <select class="form-control">
+                    <select class="form-control" name="option_0" id="option_0">
                         <option>Select your fabric</option>
                     </select>
                 </label><br>
                 <label class="form-label d-block"> Colour:
-                    <select class="form-control">
+                    <select class="form-control" name="option_1" id="option_1">
                         <option>Select your colour</option>
                     </select>
                 </label><br>
                 <label class="form-label d-block"> Leg Finish:
-                    <select class="form-control">
+                    <select class="form-control" name="option_2" id="option_2">
                         <option>Select your leg finish</option>
                     </select>
                 </label><br>
                 <label class="form-label d-block"> Optional Seat Cushion:
-                    <select class="form-control">
+                    <select class="form-control" name="option_3" id="option_3">
                         <option>Select optional cushion</option>
                     </select>
                 </label><br>
                 <hr>
                 <label class="form-label d-block">Quantity<br>
-                    <input type="number" class="form-control">
+                    <input type="number" data-min="1" data-max="0" type="text" name="quantity" value="1" readonly="true" class="quantity_selector">
+                    <div class="quantity_ui">
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
                 </label><br>
                 <input type="submit" value="Add to Basket" class="btn btn-primary">
                 <button class="fav" data-product="">fav</button>
