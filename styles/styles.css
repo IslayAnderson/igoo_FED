@@ -298,7 +298,7 @@ figure {
     display: block;
     width: 18px;
     height: 18px;
-    padding: 0px;
+    padding: 1px;
     border: solid 1px #000;
     margin: 0px;
     vertical-align: middle;
