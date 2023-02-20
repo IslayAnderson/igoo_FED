@@ -93,6 +93,18 @@ figure { margin: 0; }
 .product_main{
     max-width: 1600px;
     margin:0 auto;
+    .product_aside{
+        .product_header{
+            .product_title, .product_price{
+                font-size: 1.5rem;
+                font-weight:600;
+            }
+            .product_delivery{
+                color:green;
+            }
+        }
+    }
+    
 } 
 .gallery{
     .full{
