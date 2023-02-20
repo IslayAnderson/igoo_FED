@@ -90,6 +90,8 @@ figure { margin: 0; }
 *{
     font-family: 'proximanova', proximanova;
 }
+$purple:#220A53;
+$green:#366A30;
 .product_main{
     max-width: 1600px;
     margin:0 auto;
@@ -100,7 +102,7 @@ figure { margin: 0; }
                 font-weight:600;
             }
             .product_delivery{
-                color:#366A30;
+                color:$green;
             }
         }
     }
@@ -133,7 +135,7 @@ figure { margin: 0; }
             }
         }
         .thumbnail.select{
-            border: solid 2px blue;
+            border: solid 2px $purple;
             padding:2px;
         }
     }

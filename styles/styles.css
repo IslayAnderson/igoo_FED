@@ -292,7 +292,7 @@ figure {
     object-fit: contain;
 }
 .gallery .slider .thumbnail.select {
-    border: solid 2px blue;
+    border: solid 2px #220A53;
     padding: 2px;
 }
 .gallery .control {
