@@ -302,6 +302,8 @@ figure {
     font-size: 16px;
     padding: 0px 4px;
     background: light-gray;
+    margin: 0;
+    vertical-align: middle;
 }
 
 .gallery .full {
