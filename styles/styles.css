@@ -10,7 +10,7 @@
 .gallery .full img {
     width: 100%;
 }
-.gallery slider {
+.gallery .slider {
     width: 100%;
     height: 150px;
     display: flex;
@@ -18,17 +18,17 @@
     justify-content: center;
     flex-direction: column;
 }
-.gallery slider .thumbnail {
+.gallery .slider .thumbnail {
     height: 150px;
     width: 150px;
     display: inline-block;
 }
-.gallery slider .thumbnail img {
+.gallery .slider .thumbnail img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.gallery slider .thumbnail.select {
+.gallery .slider .thumbnail.select {
     border: solid 2px blue;
     padding: 2px;
 }
