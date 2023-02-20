@@ -118,6 +118,13 @@ $green:#366A30;
             }
         }
     }
+    .product_social{
+        .icons{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+        }
+    }
     
 } 
 .gallery{

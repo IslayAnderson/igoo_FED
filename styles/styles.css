@@ -276,6 +276,11 @@ figure {
     background: #fff;
     padding: 10px;
 }
+.product_main .product_social .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 .gallery .full {
     width: 80%;
