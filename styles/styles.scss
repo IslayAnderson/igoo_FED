@@ -125,6 +125,24 @@ $green:#366A30;
             justify-content:space-evenly;
         }
     }
+    #quantity{
+        width 36px;
+        display:inline;
+    }
+    .quantity_ui{
+        div{
+            display:flex;
+            flex-direction:column;
+            button{
+                all:unset;
+                display:block;
+                width:36px;
+                height:8px;
+                padding:2px 4px;
+                background:gray;
+            }
+        }
+    }
     
 } 
 .gallery{
