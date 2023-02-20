@@ -285,6 +285,10 @@ figure {
     width: 36px;
     display: inline;
 }
+.product_main .quantity_ui {
+    width: 36px;
+    displayt: inline-block;
+}
 .product_main .quantity_ui div {
     display: flex;
     flex-direction: column;
@@ -293,7 +297,7 @@ figure {
     all: unset;
     display: block;
     width: 36px;
-    height: 8px;
+    height: 16px;
     padding: 2px 4px;
     background: gray;
 }
