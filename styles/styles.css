@@ -257,7 +257,7 @@ figure {
     max-width: 1600px;
     margin: 0 auto;
 }
-.product_main .product_aside .product_header .product_title, .product_main .product_aside .product_header .product_price {
+.product_main .product_aside .product_header .product_title, .product_main .product_aside .product_header .product_price.price {
     font-size: 1.5rem;
     font-weight: 600;
 }
