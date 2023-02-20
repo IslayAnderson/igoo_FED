@@ -95,12 +95,12 @@ figure { margin: 0; }
     margin:0 auto;
     .product_aside{
         .product_header{
-            .product_title, .product_price.price{
+            .product_title, .product_price .price{
                 font-size: 1.5rem;
                 font-weight:600;
             }
             .product_delivery{
-                color:green;
+                color:#366A30;
             }
         }
     }

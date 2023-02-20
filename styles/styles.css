@@ -257,12 +257,12 @@ figure {
     max-width: 1600px;
     margin: 0 auto;
 }
-.product_main .product_aside .product_header .product_title, .product_main .product_aside .product_header .product_price.price {
+.product_main .product_aside .product_header .product_title, .product_main .product_aside .product_header .product_price .price {
     font-size: 1.5rem;
     font-weight: 600;
 }
 .product_main .product_aside .product_header .product_delivery {
-    color: green;
+    color: #366A30;
 }
 
 .gallery .full {
