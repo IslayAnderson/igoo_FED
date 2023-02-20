@@ -131,7 +131,7 @@ $green:#366A30;
     }
     .quantity_ui{
         width:36px;
-        displayt:inline-block;
+        display:inline-block;
         div{
             display:flex;
             flex-direction:column;
@@ -140,8 +140,10 @@ $green:#366A30;
                 display:block;
                 width:36px;
                 height:16px;
-                padding:2px 4px;
-                background:gray;
+                line-height:16px;
+                font-size:16px;
+                padding:0px 4px;
+                background:light-gray;
             }
         }
     }
