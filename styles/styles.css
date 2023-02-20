@@ -34,16 +34,17 @@
     padding: 2px;
 }
 .gallery .control {
-    position: reletive;
+    position: relative;
     top: 25%;
+    height: 1px;
 }
 .gallery .control .left, .gallery .control .right {
     position: absolute;
     font-size: 10vh;
 }
 .gallery .control .left {
-    left: 10px;
+    left: 10vh;
 }
 .gallery .control .right {
-    right: 10px;
+    right: 10vh;
 }
