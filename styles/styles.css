@@ -310,6 +310,8 @@ figure {
     text-align: center;
     background: #9B9B9B;
     color: #fff;
+    border: unset;
+    border-radius: none;
 }
 
 .gallery .full {
