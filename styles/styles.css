@@ -282,8 +282,10 @@ figure {
     justify-content: space-evenly;
 }
 .product_main #quantity {
-    width: 36px;
+    width: 42px;
     display: inline;
+    border-radius: 0;
+    border: solid 1px light-gray;
 }
 .product_main .quantity_ui {
     width: 36px;
@@ -300,7 +302,7 @@ figure {
     height: 18px;
     padding-bottom: 2px;
     padding-left: 1px;
-    border: solid 1px #000;
+    border: solid 1px light-gray;
     margin: 0px;
     vertical-align: middle;
 }
