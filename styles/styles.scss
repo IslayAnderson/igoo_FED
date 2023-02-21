@@ -156,7 +156,15 @@ $grey:#9B9B9B;
         background: $grey;
         color:#fff;
         border:unset;
-        border-radius:none;
+        border-radius:0;
+    }
+    .fav{
+        margin:0;
+        text-align: center;
+        background: $grey;
+        color:#fff;
+        border:unset;
+        border-radius:0;
     }
     
 } 

@@ -311,7 +311,15 @@ figure {
     background: #9B9B9B;
     color: #fff;
     border: unset;
-    border-radius: none;
+    border-radius: 0;
+}
+.product_main .fav {
+    margin: 0;
+    text-align: center;
+    background: #9B9B9B;
+    color: #fff;
+    border: unset;
+    border-radius: 0;
 }
 
 .gallery .full {
