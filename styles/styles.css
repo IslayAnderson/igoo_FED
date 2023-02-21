@@ -298,13 +298,16 @@ figure {
 .product_main .quantity_ui div button {
     all: unset;
     display: block;
-    width: 18px;
+    width: 28px;
     height: 18px;
     padding-bottom: 2px;
     padding-left: 1px;
     border: solid 1px #9B9B9B;
     margin: 0px;
     vertical-align: middle;
+}
+.product_main .quantity_ui div .up {
+    border-bottom: none;
 }
 .product_main #submit {
     width: 80%;

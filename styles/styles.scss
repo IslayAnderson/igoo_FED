@@ -141,13 +141,16 @@ $grey:#9B9B9B;
             button{
                 all:unset;
                 display:block;
-                width:18px;
+                width:28px;
                 height:18px;
                 padding-bottom:2px;
                 padding-left:1px;
                 border: solid 1px $grey;
                 margin:0px;
                 vertical-align: middle;
+            }
+            .up{
+                border-bottom:none;
             }
         }
     }
