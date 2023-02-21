@@ -316,10 +316,11 @@ figure {
 .product_main .fav {
     margin: 0;
     text-align: center;
-    background: #9B9B9B;
+    background: #fff;
     color: #fff;
-    border: unset;
+    border: solid 1px #9B9B9B;
     border-radius: 0;
+    padding: 5px 6px;
 }
 
 .gallery .full {

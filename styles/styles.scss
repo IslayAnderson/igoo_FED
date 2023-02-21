@@ -161,9 +161,9 @@ $grey:#9B9B9B;
     .fav{
         margin:0;
         text-align: center;
-        background: $grey;
+        background: #fff;
         color:#fff;
-        border:unset;
+        border:solid 1px $grey;
         border-radius:0;
         padding: 5px 6px;
     }
