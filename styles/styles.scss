@@ -95,7 +95,7 @@ $green:#366A30;
 $grey:#9B9B9B;
 .product_main{
     max-width: 1600px;
-    margin:0 auto;
+    margin:0 auto !important;
     .product_aside{
         .product_header{
             .product_title, .product_price .price{

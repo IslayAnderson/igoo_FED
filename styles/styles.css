@@ -255,7 +255,7 @@ figure {
 
 .product_main {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 .product_main .product_aside .product_header .product_title, .product_main .product_aside .product_header .product_price .price {
     font-size: 1.5rem;
