@@ -312,6 +312,7 @@ figure {
     color: #fff;
     border: unset;
     border-radius: 0;
+    font-weight: 600;
 }
 .product_main .fav {
     margin: 0;
