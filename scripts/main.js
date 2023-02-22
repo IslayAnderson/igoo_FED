@@ -13,10 +13,12 @@ function quantity(){
         ui[0].addEventListener('click', function(e){
             //e.preventDefault();
             quantity.value = quantity.value++;
+            console.log(quantity.value)
         })
         ui[1].addEventListener('click', function(e){
             //e.preventDefault();
             quantity.value = quantity.value--;
+            console.log(quantity.value)
         })
     }
 }
