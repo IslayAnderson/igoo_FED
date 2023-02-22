@@ -13,12 +13,16 @@ function quantity(){
     if(quantity){
         ui[0].addEventListener('click', function(e){
             //e.preventDefault();
-            quantity.value++;
+            if(quantity.value < 999){
+                quantity.value++;
+            }
             console.log(quantity.value)
         })
         ui[1].addEventListener('click', function(e){
             //e.preventDefault();
-            quantity.value--;
+            if(quantity.value > 1){
+                quantity.value--;
+            }
             console.log(quantity.value)
         })
     }
