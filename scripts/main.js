@@ -11,11 +11,11 @@ function quantity(){
     let ui = document.querySelectorAll('quantity_ui button');
     if(quantity){
         ui[0].addEventListener('click', function(e){
-            e.preventDefault();
+            //e.preventDefault();
             quantity.value = quantity.value++;
         })
         ui[1].addEventListener('click', function(e){
-            e.preventDefault();
+            //e.preventDefault();
             quantity.value = quantity.value--;
         })
     }
