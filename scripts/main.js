@@ -7,7 +7,7 @@ window.onload = function(){
 
 //event listeners 
 function quantity(){
-    let quantity = document.querySelectorAll('#quantity');
+    let quantity = document.querySelector('#quantity');
     let ui = document.querySelectorAll('.quantity_ui button');
     console.log(ui)
     if(quantity){
